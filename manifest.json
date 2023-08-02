@@ -1,9 +1,10 @@
 {
   "manifest_version": 2,
 
-  "name": "Zoom Closer",
-  "description": "This extension automatically closes the launched window from Zoom meetings.",
-  "version": "1.6",
+  "name": "Figma Closer",
+  "description": "This Chrome extension automatically closes the "Opened in [file-name]" window that is created any time you click on a figma link.
+",
+  "version": "0.1",
 
   "icons": {
     "16": "assets/icon-16.png",
@@ -21,11 +22,7 @@
     {
       "run_at": "document_start",
       "matches": [
-        "https://zoom.us/postattendee",
-        "https://zoom.us/j/*",
-        "https://*.zoom.us/j/*",
-        "https://zoom.us/s/*",
-        "https://*.zoom.us/s/*"
+        "https://*.figma.com/file/*"
       ],
       "js": [
         "content.js"
