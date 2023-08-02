@@ -2,7 +2,7 @@
   "manifest_version": 2,
 
   "name": "Figma Closer",
-  "description": "This Chrome extension automatically closes the "Opened in [file-name]" window that is created any time you click on a figma link.
+  "description": "This Chrome extension automatically closes the Opened in [file-name] window that is created any time you click on a figma link.
 ",
   "version": "0.1",
 
